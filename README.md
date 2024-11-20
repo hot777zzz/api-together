@@ -17,22 +17,22 @@ api接口集合的功能界面，提供对api的添加和删除，并且在route
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
+  <a href="https://github.com/hot777zzz/api-together/">
     <img src="public/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">api接口集合</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    为自己写的接口配置前端的方便调用
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/hot777zzz/api-together"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
+    <a href="https://github.com/hot777zzz/api-together/README.md">查看Demo</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    <a href="https://github.com/hot777zzz/api-together/issues">报告Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+    <a href="https://github.com/hot777zzz/api-together/issues">提出新特性</a>
   </p>
 
 </p>
@@ -57,44 +57,43 @@ api接口集合的功能界面，提供对api的添加和删除，并且在route
 
 ### 上手指南
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
+这是一个与后端联系的前端页面，用于配置和部署你的api并且有展示的页面的项目
 
 
 
 ###### 开发前的配置要求
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
+1.node已经安装
+2.有本地或者服务器进行api的后端部署
 
 ###### **安装步骤**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1.npm init
+2.npm run start
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/api-together
 ```
 
 ### 文件目录说明
 eg:
 
 ```
-filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+api-together
+├── .gitignore
+├── package.json   文件包依赖
+├── README.md  
+├── /public/  静态资源
+├── /scripts/ npm命令
+├── /src/ 主文件
+│  ├── /api/ 在这里添加你的接口文件，也可以重写
+│  │  ├── request.js 主api调用axios
+│  │  └── ai.js
+│  │  └── dataSta.js
+│  │  └── login.js
+|  ├── /store/ 视口级存储你的信息
+|  ├── /views/ 你的页面
+│  ├── index.js 在这里配置你的router
 
 ```
 
@@ -112,13 +111,12 @@ filetree
 
 ### 使用到的框架
 
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
+- [react](https://react.com)
+- [prochat](https://prochat.com)
 
 ### 贡献者
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
+ @hot777zzz
 
 #### 如何参与开源项目
 
@@ -139,15 +137,15 @@ filetree
 
 ### 作者
 
-xxx@xxxx
+hot7@hot777zzz
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+知乎:hot7  &ensp; qq:912275990   
 
  *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/hot777zzz/api-together/blob/master/LICENSE.txt)
 
 ### 鸣谢
 
