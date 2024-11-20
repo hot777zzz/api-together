@@ -18,7 +18,7 @@ api接口集合的功能界面，提供对api的添加和删除，并且在route
 
 <p align="center">
   <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">"完美的"README模板</h3>
