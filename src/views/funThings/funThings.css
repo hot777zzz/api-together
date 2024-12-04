@@ -25,3 +25,7 @@
     color: #333;
     margin: 0;
 }
+
+.history-card p {
+    background-clip: border-box;
+}

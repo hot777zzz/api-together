@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
 
 
-export default function program() {
-    return (
-        <div>program page
-        
-        </div>
-    )
+
+
+
+
+export default function App(){
+    const getAllapi = () => {
+    
+    }
+    useEffect(() => {
+        getAllapi();
+    }, []);
+    return <program />
 }

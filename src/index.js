@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import IndexPage from './views/index/index'; // Assuming the component name is IndexPage
-import Me from './views/me'; // Assuming the component name is Me
+import IndexPage from './views/index/index'; 
+import Me from './views/me'; 
 import Program from './views/program/program';
 import NewPage from './views/newPage';
 import Login from './views/login';

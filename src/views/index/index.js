@@ -10,7 +10,7 @@ const items = [
     key: 'mail',
   },
   {
-    label: <Link to="/program">程序</Link>,
+    label: <Link to="/program">共计接口信息</Link>,
     key: 'app',
   },
   {
@@ -62,7 +62,7 @@ export default function Index(){
   const navigate = useNavigate();
  const [current, setCurrent] = useState('');
   const onClick = (e) => {
-    console.log('click ', e);
+    // console.log('click ', e.key);
     setCurrent(e.key);
   };
 
